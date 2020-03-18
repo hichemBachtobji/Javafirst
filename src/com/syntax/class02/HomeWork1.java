@@ -4,31 +4,24 @@ public class HomeWork1 {
 	
 	public static void main (String[] args) {
 		
-		String str="Morning";
+int [][] numbers = new int [2][3];
 		
-		String address="5142 macarthur blvd nw dc";
+		numbers[0][2]=8;
+		numbers[1][0]=9;
+		numbers [0][0]=5;
+		numbers [0][1]=6;
+		numbers [1][1]=2;
+		numbers [1][2]=3;
 		
-		String phoneNumber="123-456-6789";
+		System.out.println();
 		
-		String name="Hichem";
+// 2nd way of 2D array
 		
-		String carMake="Toyota";
-		
-		String Carcolor="black";
-		
-		int Caryear=2019;
-		
-		String carPrice="$21.000 USD";
-		
-		String greeting="good morning";
-		
-		String greeting1="good morning ";
-		
-		System.out.println(Caryear);
-		
-		
+		int [] [] numbers2 = {{5,6,8},{9,2,3}
+				
+		};
+		System.out.println("let's get values from numbers2");
+		int Sum1= numbers2[0][0]+numbers2[0][1]+numbers2[0][2];
+		System.out.println(Sum1);
 	}
-	
-	
-
 }
