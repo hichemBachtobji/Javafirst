@@ -9,6 +9,7 @@ public class repl94 {
 	    System.out.println("Enter the browser name to proceed further with execution");
 	    String browser = sc.nextLine(); 
 	    String message;
+	    
 	    switch(browser.toLowerCase()) {
 	    case"chrome":
 	    	message="Proceed with Chrome browser";
