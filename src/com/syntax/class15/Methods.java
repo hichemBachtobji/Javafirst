@@ -17,4 +17,15 @@ public class Methods {
 		}
 		
 	}
+	//create a method isItRaining
+	//that will accept boolean value as a parameter
+	//based on the value it will print message accordingly
+	
+	void isItRaining(boolean isRain) {
+		if (isRain) {
+			System.out.println("it is raining stay home");
+		}else {
+			System.out.println("it is not raining go for a walk");
+		}
+	}
 }

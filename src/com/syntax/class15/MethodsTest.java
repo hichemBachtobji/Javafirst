@@ -9,6 +9,10 @@ public class MethodsTest {
 		obj.sayAnything("HEllo", 5);
 		obj.sayAnything("Bye", 10);
 		//obj.sayAnything(10, "Hi"); CE
+		
+		obj.isItRaining(true);
+		obj.isItRaining(false);
+		
 
 	}
 

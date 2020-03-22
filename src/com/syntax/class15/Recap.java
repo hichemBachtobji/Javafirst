@@ -19,7 +19,7 @@ public class Recap {
     }
     public static void main(String[] args) {
         //creating first object
-        Google emp1=new Google();
+        Recap emp1=new Recap();
         emp1.empId=123;
         emp1.name="John";
         emp1.lastName="Smith";
@@ -30,7 +30,7 @@ public class Recap {
         emp1.attendMeetings();
         
         //creating second object
-        Google emp2=new Google();
+       Recap emp2=new Recap();
         emp2.empId=124;
         emp2.name="Seyma";
         emp2.lastName="Atasoy";
