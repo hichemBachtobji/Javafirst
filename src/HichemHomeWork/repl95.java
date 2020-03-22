@@ -6,7 +6,7 @@ public class repl95 {
 		
 		String str ="Hello Syntax friends";
 		
-		System.out.println(str .rep);
+		System.out.println(str.replaceAll("Hello Syntax friends", "Welcome Syntax family"));
 
 	}
 

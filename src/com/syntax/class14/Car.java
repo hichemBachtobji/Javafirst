@@ -9,6 +9,22 @@ public class Car {
 	int year;
 	String color;
 	
-	// 
+	// define behavior
+	void drive() {
+        System.out.println(make+" can drive");
+    }
+    
+    void accelerate() {
+        System.out.println(make+ " can accelerate");
+    }
+    
+    void makeNoise() {
+        System.out.println(make+ " make noise");
+    }
+    
+    void stop() {
+        System.out.println(make+" stops when you press break");
+        System.out.println("Car stops");
 
+}
 }
