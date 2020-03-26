@@ -19,6 +19,7 @@ public class repl94 {
 	    	break;
 	    case"ie":
 	    	message="Proceed with IE browser";
+	    	break;
 	    	default:
 	    		message="Invalid browser";
 	    	

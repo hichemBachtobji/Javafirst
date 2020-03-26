@@ -19,7 +19,7 @@ public class repl97 {
 		if(text.equalsIgnoreCase(rev)) {
 			System.out.println("This is a palindrome");
 		}else {
-			System.out.println("This is not a palindrome");
+			System.out.println(rev);
 		}
 
 }
