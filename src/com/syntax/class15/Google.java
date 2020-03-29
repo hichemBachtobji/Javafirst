@@ -1,6 +1,6 @@
 package com.syntax.class15;
 
-public class Recap {
+public class Google {
 
 	 // define features such as emp id, name, last name, salary, title
     // define a behavior working, get paid, attending meetings
@@ -19,7 +19,7 @@ public class Recap {
     }
     public static void main(String[] args) {
         //creating first object
-        Recap emp1=new Recap();
+        Google emp1=new Google();
         emp1.empId=123;
         emp1.name="John";
         emp1.lastName="Smith";
@@ -30,7 +30,7 @@ public class Recap {
         emp1.attendMeetings();
         
         //creating second object
-       Recap emp2=new Recap();
+       Google emp2=new Google();
         emp2.empId=124;
         emp2.name="Seyma";
         emp2.lastName="Atasoy";

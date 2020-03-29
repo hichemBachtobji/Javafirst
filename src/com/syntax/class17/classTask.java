@@ -7,7 +7,7 @@ public class classTask {
 		 * of all elements from that array. Method should be visibly only within same
 		 * package and accessible by the creating an instance of the class.
 	 	 */
-		static int array(int [] x) {
+		protected int array(int [] x) {
 			int sum=0;
 			for (int i=0;i<x.length;i++) {
 				sum=sum+x[i];

@@ -11,7 +11,7 @@ public class Employee {
 	double salary;// accessible within same package
 	private long ssn;// accessible only within same class
 	
-	public void method1() {
+	public static void method1() {
 		System.out.println("I am public method ");
 	}
 	
@@ -29,6 +29,12 @@ public class Employee {
 		emp.name="John";
 		emp.lastName="Smith";
 		emp.salary=90000;
+		emp.ssn=908776767;
+		//accessing all methods
+		method1();
+		emp.method2();
+		emp.method3();
+		emp.method4();
 	}
 
 }
