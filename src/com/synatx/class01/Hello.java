@@ -9,6 +9,14 @@ public class Hello {
 		 * comment
 		 */
 		System.out.println("Hello");
+		
+		StringBuffer s=new StringBuffer("hello");
+		System.out.println(s.reverse());
+		System.out.println(s.capacity());
+		System.out.println(s.lastIndexOf("hich"));
+		System.out.println(s.indexOf("hichem"));
+		System.out.println(s.charAt(1));
+		System.out.println(s.length());
 	}	
 	
 }
